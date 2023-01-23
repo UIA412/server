@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend Server for Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "nodemon server.js"
+  },
+  "keywords": [
+    "Server",
+    "Backend",
+    "Node",
+    "JS",
+    "APP"
+  ],
+  "author": "Kashif Raza",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cookie": "^0.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.1",
+    "node-fetch": "^3.3.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "axios": "^1.1.3",
+    "ejs": "^3.1.8",
+    "nodemailer": "^6.8.0",
+    "passport": "^0.6.0",
+    "passport-google-auth": "^1.0.2",
+    "passport-google-oauth": "^2.0.0"
+  }
+}

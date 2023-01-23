@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web App</title>
+</head>
+<body>
+    <h3>Calculating the Color and Analysing Data . . . will take a moment</h3>
+    <script>
+        const areaParams = window.location.search.substring(window.location.search.indexOf('?') + 1).split('&');
+        console.log(areaParams);
+        setTimeout(function(){
+            window.location.href = "http://localhost:3000/survey?"+areaParams[0]+"&"+areaParams[1];
+        }, 5000);
+    </script>
+</body>
+</html>

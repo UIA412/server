@@ -1,0 +1,9 @@
+User Id : <b> <%= user.id%></b>
+<br>
+User Email: <b><%= user.emails[0].value %></b>
+<br>
+User Name : <b><%= user.displayName %></b>
+<br>
+Profile Picture : <img src="<%=user.photos[0].value%>" alt="profile picture" />
+<br><br>
+<a href="/logout">Logout</a>

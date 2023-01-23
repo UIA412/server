@@ -1,0 +1,10 @@
+GET http://localhost:5000/getLocation
+Content-Type: application/json
+
+ {
+    "latitude": "28.9034473",
+    "longitude": "76.5719414",
+    "date": "2022-11-14"
+}
+
+###
